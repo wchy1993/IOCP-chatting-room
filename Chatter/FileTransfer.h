@@ -1,0 +1,17 @@
+
+#if !defined(AFX_FILETRANSFER_H__3383140D_B0A4_4E76_945C_314C36BFB39D__INCLUDED_)
+#define AFX_FILETRANSFER_H__3383140D_B0A4_4E76_945C_314C36BFB39D__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+
+#include "user.h"
+
+UINT AcceptFunc( LPVOID pParam );
+UINT ConnectFunc( LPVOID pParam );
+UINT ReceiveFunc( LPVOID pParam );	
+
+
+#endif // !defined(AFX_FILETRANSFER_H__3383140D_B0A4_4E76_945C_314C36BFB39D__INCLUDED_)
